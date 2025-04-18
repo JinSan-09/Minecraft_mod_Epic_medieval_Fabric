@@ -1,5 +1,6 @@
 package com.jinsan09;
 
+import com.jinsan09.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,5 +20,6 @@ public class Epic_medieval implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.itemToMod();
 	}
 }
